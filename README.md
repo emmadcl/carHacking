@@ -90,9 +90,9 @@ Les trames envoyées et les erreurs potentielles seront affichées dans le termi
 ### 6. Acquisiton de la trame d'ouverture de porte
 
 Après affinage, le terminal affichera un résultat de type :
-
+```bash
 Trame envoyée: ID=0x19B, données=[0x00, 0x00, 0x0E, 0x00, 0x00]
-
+```
 
 
 ### Explication des sections :
