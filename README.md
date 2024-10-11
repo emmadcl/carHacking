@@ -75,7 +75,7 @@ Dans le fichier `voiture_python.py`, ajustez les valeurs suivantes en fonction d
 Lorsque vous lancez le projet, le terminal vous demandera si la porte s'est ouverte après chaque envoi de paquet. Voici un exemple d'exécution :
 
 ```bash
-Envoi du paquet 1/5, trames 0 à 9
+Envoi du paquet 1/5, trames 0 à 999
 Trame envoyée: ID=0x13f, données=[0x00, 0x00, 0x05, 0x00, 0x1f]
 La porte s'est-elle ouverte après cet envoi ? (o/n) : o
 La porte s'est ouverte. Fermeture en cours...
@@ -90,6 +90,7 @@ Les trames envoyées et les erreurs potentielles seront affichées dans le termi
 ### 6. Acquisiton de la trame d'ouverture de porte
 
 Après affinage, le terminal affichera un résultat de type :
+
 Trame envoyée: ID=0x19B, données=[0x00, 0x00, 0x0E, 0x00, 0x00]
 
 
